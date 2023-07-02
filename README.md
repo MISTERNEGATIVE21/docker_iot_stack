@@ -66,3 +66,61 @@ Visual Studio Code (VSCode) is set up using the codercom/code-server image. It i
 
    ```bash
    docker-compose -d up
+## Install PlatformIo Tools
+
+Follow these steps to install PlatformIO in Visual Studio Code:
+
+1. Download and install Visual Studio Code from the official website: [https://code.visualstudio.com/](https://code.visualstudio.com/)
+
+2. Launch Visual Studio Code.
+
+3. Open the Extensions view by clicking on the square icon on the left sidebar or pressing `Ctrl+Shift+X`.
+
+4. In the search bar, type "PlatformIO" and press Enter.
+
+5. Look for the "PlatformIO IDE" extension in the search results and click the "Install" button.
+
+6. Once the installation is complete, click the "Reload" button to activate the extension.
+
+7. After the reload, you should see the PlatformIO icon on the left sidebar of Visual Studio Code.
+
+## Getting Started
+
+To create a new PlatformIO project, follow these steps:
+
+1. Click on the PlatformIO icon on the left sidebar to open the PlatformIO Home.
+
+2. Click on the "New Project" button.
+
+3. Select the board you are using for your project from the list or enter the board name in the search box.
+
+4. Choose the framework you want to use (e.g., Arduino, ESP-IDF, etc.).
+
+5. Enter a name for your project and select a location to save it.
+
+6. Click on the "Finish" button to create the project.
+
+7. The project will be initialized, and the necessary files and folders will be created.
+
+## Building and Uploading Code
+
+To build and upload your code to the target device, follow these steps:
+
+1. Open your PlatformIO project in Visual Studio Code.
+
+2. Open the terminal by clicking on "View" in the top menu and selecting "Terminal" or by pressing `Ctrl+` backtick.
+
+3. Use the following commands in the terminal:
+
+   - Build the project: `pio run`
+   - Upload the code to the device: `pio run --target upload`
+
+   You can also use the PlatformIO toolbar on the left sidebar for build and upload actions.
+
+## Additional Resources
+
+- [PlatformIO Documentation](https://docs.platformio.org/)
+- [Visual Studio Code Documentation](https://code.visualstudio.com/docs)
+- [PlatformIO Official Website](https://platformio.org/)
+
+
